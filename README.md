@@ -74,7 +74,7 @@ active-memory-front
   → [my client lab!](http://quantup.com)
 
 
-
+```
 --
 #!/usr/local/bin/perl -lw
 {sub b{ return pack("B64",shift
@@ -94,4 +94,4 @@ OOOOMMMMMMM(                 )MMMMMMMMMMMMMMM
 OOOOOMMMMMMMMM\\___________//MMMMMMMMMMMMMMMM
 OOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 ',[@fin]};
-
+```
