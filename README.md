@@ -4,9 +4,8 @@ active-memory-front
 
 ## Documentation
 
-```
- UI for the genetically organised active memory database
-```
+  UI for the genetically organised active memory database
+
   Sorry for this poor Documentation it will grow accordingly to the state of the
   project, currently all efforts go into securing the cornerstones required to
   change the way we accessing data, and the way data is stored itself.
@@ -23,13 +22,11 @@ active-memory-front
 
   ☞ [short term goal] 
     
-```
   To implement the properties of the concept into a generic db environment.
   to reduce the distance to information and the energie required to get there.
   
   Accessing the full potential of data networks in a passive way 
   
-```
 
   ☞ [long  term goal]
 
@@ -66,10 +63,28 @@ active-memory-front
 
   Not finished, any help is welcome
 
-
-
 #### Implementation
   → [my client lab!](http://quantup.com)
 
 
+
+--
+#!/usr/local/bin/perl -lw
+{sub b{ return pack("B64",shift
+);}; @n=qw(01110011 01100001 01101110
+01110100 01100101 01111000); foreach
+(@n){$d=b($_);print $d; push @fin,$d;}
+print split//,':Its okay to program in Perl
+OOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMMMMM/   \MMMMMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMMMM{ - - }MMMMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMMMM(  _  )MMMMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMMMM_\   /_MMMMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMMM/     / \MMMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMM/___/\/___\MMMMMMMMMMMMMMMMMMM
+OOOOMMMMMMMM__(____||_____)__MMMMMMMMMMMMMMMM
+OOOOMMMMMMM(                 )MMMMMMMMMMMMMMM
+OOOOOMMMMMMMMM\\___________//MMMMMMMMMMMMMMMM
+OOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+',[@fin]};
 
